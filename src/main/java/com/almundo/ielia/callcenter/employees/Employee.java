@@ -16,6 +16,7 @@ public abstract class Employee implements Comparable<Employee> {
 
     /**
      * Compares employees based on pick-up priority.
+     *
      * @param other The employee instance we will compare to.
      * @return -1 if current instance comes before in the line of picking calls up, 0 if same, 1 otherwise.
      */
@@ -25,6 +26,7 @@ public abstract class Employee implements Comparable<Employee> {
 
     /**
      * Receives a call being dispatched to this instance.
+     *
      * @param phoneCall The phone call being received.
      */
     public void receive(PhoneCall phoneCall) {

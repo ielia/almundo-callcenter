@@ -1,7 +1,6 @@
 package com.almundo.ielia.callcenter.phonecalls;
 
 import java.util.Random;
-import java.util.function.Consumer;
 
 /**
  * <p>A Phone Call.</p>

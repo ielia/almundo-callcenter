@@ -9,7 +9,6 @@ import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.IntStream;
@@ -47,12 +46,6 @@ public abstract class AbstractDispatcherTest {
 
     protected List<PhoneCall> createCalls(Supplier<PhoneCall> constructor, int n) {
         return create(constructor, PhoneCall.class, n);
-    }
-
-    protected Dispatcher createDispatcher(Employee...employees) {
-        Dispatcher dispatcher = new Dispatcher();
-        dispatcher.addAll(Arrays.asList(employees));
-        return dispatcher;
     }
 
     protected Dispatcher createDispatcher(List<Employee> operators, List<Employee> supervisors, List<Employee> directors) {
