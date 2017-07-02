@@ -14,7 +14,8 @@ mvn javadoc:javadoc # Para, además, ver los miembros privados
 ```
 
 ### Diagrama UML de clases
-![Diagrama UML](uml_class_diagram.svg?raw=true)
+![Diagrama UML](uml_class_diagram.png?raw=true)
+
 ([Archivo generado con IntelliJ](callCenterClassDiagram.uml))
 
 ## Puntos Extra
