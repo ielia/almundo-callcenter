@@ -14,9 +14,8 @@ mvn javadoc:javadoc # Para, además, ver los miembros privados
 ```
 
 ### Diagrama UML de clases
-<img src="uml_class_diagram.svg?raw=true"/>
-
-[Diagrama Generado con IntelliJ](callCenterClassDiagram.uml)
+![Diagrama UML](uml_class_diagram.svg?raw=true)
+([Archivo generado con IntelliJ](callCenterClassDiagram.uml))
 
 ## Puntos Extra
 * Cuando no hay ningún empleado libre, la llamada quedará "on-hold" hasta que sea posible
